@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.lead {
+    font-size: 3.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 1rem 2rem;
+    background-color: #284F80;
+    color: #C4BA39;
+}

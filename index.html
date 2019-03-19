@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Train Schedule</title>
+</head>
+<body>
+
+
+    
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Great Timing Trains</h1>
+                <p class="lead">🛤️🚄🛤️🚂🛤️🚞🛤️🚝🛤️🚃🛤️</p>
+            </div>
+        </div>
+
+            <div class="card">
+                <h5 class="card-header">Current Train Schedule</h5>
+                <div class="card-body">
+                    <div class="card-text">
+                    <table class="table">
+                    <thead class="thead-light"></thead>
+                      <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Frequency (min)</th>
+                        <th scope="col">New Arrival</th>
+                        <th scope="col">Minutes Away</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" id="tn"></th>
+                        <td id="dest"></td>
+                        <td id="freq"></td>
+                        <td id="newarr"></td>
+                        <td id="minaway"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" id="trainname"></th>
+                        <td id="dest"></td>
+                        <td id="freq"></td>
+                        <td id="newarr"></td>
+                        <td id="minaway"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row" id="trainname"></th>
+                        <td id="dest"></td>
+                        <td id="freq"></td>
+                        <td id="newarr"></td>
+                        <td id="minaway"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+           
+    
+
+
+
+
+
+            <div class="card">
+                <h5 class="card-header">Add Train</h5>
+                <div class="card-body">
+                     <form class="card-text">
+                     <div class="form-group">
+                     <label for="train-input">Train Name</label>
+                     <input type="text" class="form-control" id="traininput">
+                     </div>
+                     <div class="form-group">
+                        <label for="train-input">Destination</label>
+                        <input type="text" class="form-control" id="destinationinput">
+                     </div>
+                      <div class="form-group">
+                        <label for="firsttrain-input">First Train Time (HH:mm - military time)</label>
+                        <input type="text" class="form-control" id="firsttraininput">
+                     </div>
+                     <div class="form-group">
+                        <label for="frequency-input">Frequency (min)</label>
+                        <input type="text" class="form-control" id="frequencyinput">
+                     </div>
+                     <a href="#" class="btn btn-secondary">Go somewhere</a>
+                     </form>
+
+                </div>
+            </div>
+        
+
+
+</body>
+</html>
